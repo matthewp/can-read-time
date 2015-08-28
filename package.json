@@ -1,0 +1,37 @@
+{
+  "name": "can-read-time",
+  "version": "1.0.0",
+  "description": "A can.Component for calculating how long it will take to read some text",
+  "main": "read-time.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewp/read-time.git"
+  },
+  "keywords": [
+    "canjs",
+    "can-component"
+  ],
+  "author": "Matthew Phillips",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewp/read-time/issues"
+  },
+  "homepage": "https://github.com/matthewp/read-time",
+  "system": {
+    "main": "read-time",
+    "directories": {
+      "lib": "src"
+    }
+  },
+  "devDependencies": {
+    "can-lorem-ipsum": "^1.0.0",
+    "steal": "^0.11.0-pre.0"
+  },
+  "dependencies": {
+    "can": "^2.3.0-pre.0",
+    "jquery": "*"
+  }
+}

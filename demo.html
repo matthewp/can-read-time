@@ -1,0 +1,13 @@
+<script type="text/stache" can-autorender>
+  <can-import from="can-read-time" />
+  <can-import from="can-lorem-ipsum" />
+
+  <read-time selector="lorem-ipsum"></read-time>
+  <lorem-ipsum times="50"></lorem-ipsum>
+</script>
+<script src="node_modules/steal/steal.js" main="can/view/autorender/"></script>
+<style>
+  read-time {
+    font-weight: bolder;
+  }
+</style>
